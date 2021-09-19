@@ -95,7 +95,8 @@
 #footer .sub-footer a {
     color: #79FFFe;
     font-size: 16px;
-    margin: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .social-list a:hover,
