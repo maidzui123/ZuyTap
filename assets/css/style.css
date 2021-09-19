@@ -75,6 +75,10 @@
     padding-right: 8px;
     font-size: 20px;
 }
+#infor ul li a {
+    color: #79FFFe;
+    text-decoration: none;
+}
 #footer {
     text-align: center;
 }
@@ -92,7 +96,7 @@
 #footer .sub-footer a {
     color: #79FFFe;
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .social-list a:hover,
