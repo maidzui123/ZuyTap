@@ -83,7 +83,7 @@
 }
 #footer .social-list {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 #footer .social-list a {
     color: #79FFFe;
@@ -95,7 +95,7 @@
 #footer .sub-footer a {
     color: #79FFFe;
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .social-list a:hover,
