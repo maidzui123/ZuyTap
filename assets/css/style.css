@@ -82,8 +82,8 @@
     text-align: center;
 }
 #footer .social-list {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #footer .social-list a {
     color: #79FFFe;
@@ -95,7 +95,7 @@
 #footer .sub-footer a {
     color: #79FFFe;
     font-size: 16px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .social-list a:hover,
