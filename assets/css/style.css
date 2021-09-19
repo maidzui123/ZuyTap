@@ -15,8 +15,8 @@
     color: #000;
 }
 #background {
-    width: 375px;
-    height: 812px;
+    width: 414px;
+    height: 896px;
     margin-top: 90px;
     background-image: url(https://i.pinimg.com/564x/33/2a/b7/332ab7c66f7a2962270125eb05f51e6e.jpg);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     border-radius: 50px;
 }
 #avatar {
-    /* width: 100%; */
+    width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
