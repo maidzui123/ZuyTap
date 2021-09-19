@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+*::selection {
+    background-color: aliceblue;
+    color: #000;
+}
+#background {
+    width: 375px;
+    height: 812px;
+    margin-top: 90px;
+    background-image: url(https://i.pinimg.com/564x/33/2a/b7/332ab7c66f7a2962270125eb05f51e6e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px black solid;
+    border-radius: 50px;
+}
+#avatar {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#avatar .zuy-avatar {
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#name {
+    font-size: 15px;
+    text-align: center;
+    color: #79FFFe;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+#name .zuy-tagname {
+    font-style: italic;
+    margin-top: 10px;
+}
+#name .zuy-birthday {
+    margin-top: 10px;
+}
+#name .zuy-birthday i {
+    padding-left: 10px;
+}
+#infor ul {
+    list-style-type: none;
+    text-align: center;
+}
+#infor ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 1px;
+    margin-bottom: 20px;
+    color: #79FFFe;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    width: 310px;
+    display: inline-block;
+    border: 2px #79FFFe solid;
+    box-shadow: 10px 8px 10px rgba(121, 255, 254,0.5);
+}
+#infor ul li i {
+    padding-right: 8px;
+    font-size: 20px;
+}
+#footer {
+    text-align: center;
+}
+#footer .social-list {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#footer .social-list a {
+    color: #79FFFe;
+    font-size: 20px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+#footer .sub-footer,
+#footer .sub-footer a {
+    color: #79FFFe;
+    font-size: 16px;
+}
+
+.social-list a:hover,
+.sub-footer a:hover{
+    opacity: 0.6;
+}
+
+@media (max-width: 739px) {
+    #background {
+        border: none;
+        border-radius: 0;
+        margin-top: 0;
+    }
+}
