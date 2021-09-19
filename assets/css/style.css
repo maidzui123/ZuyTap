@@ -16,7 +16,7 @@
 }
 #background {
     width: 414px;
-    height: 100%;
+    height: 821px;
     margin-top: 90px;
     background-image: url(https://i.pinimg.com/564x/33/2a/b7/332ab7c66f7a2962270125eb05f51e6e.jpg);
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 #avatar {
     width: 100%;
-    height: 170px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,8 +82,7 @@
     text-align: center;
 }
 #footer .social-list {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 #footer .social-list a {
     color: #79FFFe;
@@ -95,8 +94,7 @@
 #footer .sub-footer a {
     color: #79FFFe;
     font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .social-list a:hover,
