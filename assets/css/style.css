@@ -18,7 +18,10 @@
     width: 414px;
     height: 812px;
     margin-top: 90px;
-    background-image: url(https://i.pinimg.com/originals/09/c6/29/09c62903beeba336dc9da76eb5c9a107.gif);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),url(https://i.pinimg.com/originals/09/c6/29/09c62903beeba336dc9da76eb5c9a107.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,7 +69,6 @@
     padding: 20px 1px;
     margin-bottom: 20px;
     color: #00FECA;
-    background-color: rgba(0,0,0,0.2);
     font-size: 16px;
     font-weight: 600;
     font-style: italic;
