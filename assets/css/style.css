@@ -18,15 +18,17 @@
     width: 414px;
     height: 812px;
     margin-top: 90px;
-    background-image: url(https://i.pinimg.com/564x/33/2a/b7/332ab7c66f7a2962270125eb05f51e6e.jpg);
+    background-image: url(https://i.pinimg.com/originals/09/c6/29/09c62903beeba336dc9da76eb5c9a107.gif);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     border: 5px black solid;
     border-radius: 50px;
 }
+
 #avatar {
     width: 100%;
-    height: 200px;
+    height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,9 +39,9 @@
     border-radius: 50%;
 }
 #name {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-    color: #79FFFe;
+    color:#00FECA;
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
@@ -49,6 +51,8 @@
 }
 #name .zuy-birthday {
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
 }
 #name .zuy-birthday i {
     padding-left: 10px;
@@ -61,21 +65,22 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 1px;
     margin-bottom: 20px;
-    color: #79FFFe;
+    color: #00FECA;
+    background-color: rgba(0,0,0,0.2);
     font-size: 16px;
     font-weight: 600;
     font-style: italic;
     width: 310px;
     display: inline-block;
-    border: 2px #79FFFe solid;
-    box-shadow: 10px 8px 10px rgba(121, 255, 254,0.5);
+    border: 2px #00FECA solid;
+    box-shadow: 0px 0px 30px rgba(121, 255, 254,0.6);
 }
 #infor ul li i {
     padding-right: 8px;
     font-size: 20px;
 }
 #infor ul li a {
-    color: #79FFFe;
+    color: #00FECA;
     text-decoration: none;
 }
 #footer {
@@ -85,14 +90,14 @@
     margin: 20px 0;
 }
 #footer .social-list a {
-    color: #79FFFe;
+    color: #00FECA;
     font-size: 20px;
     margin: 0px 5px;
     text-decoration: none;
 }
 #footer .sub-footer,
 #footer .sub-footer a {
-    color: #79FFFe;
+    color: #00FECA;
     font-size: 16px;
     margin: 20px 0;
 }
